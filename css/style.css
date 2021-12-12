@@ -319,3 +319,53 @@ body{
     margin-bottom: 30px;
 }
 
+/* .footer__texts{
+    text-align: left;
+    justify-self: left;
+} */
+
+.footer__social{
+    display: flex;
+    padding-top: 30px;
+    flex-wrap: wrap;
+}
+
+.footer__link{
+    width: 60px;
+    height: 60px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__icon{
+    width: 30px;
+}
+
+.footer__copy{
+    margin: 20px 0;
+    font-weight: 300;
+}
+
+.footer__picture{
+    margin: 0;
+}
+
+.footer__img{
+    width: 100%;
+}
+
+.footer__copyright{
+    padding-top: 30px;
+    border-top: 2px solid #918484;
+    text-align: center;
+}
+
+.footer__copyright::after{
+    content: "dannye.alas@gmail.com";
+}
+
