@@ -369,3 +369,21 @@ body{
     content: "dannye.alas@gmail.com";
 }
 
+/* Reglas para dispositivos moviles */
+
+
+@media screen and (max-width: 768) {
+
+    :root{
+        --height-shape:14em;
+    }
+
+    .hero__container{
+        --padding-container: 60px 0;
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr 1fr;
+        
+    }
+    
+}
+
